@@ -38,4 +38,4 @@ OrionLib:Init()
 
 getgenv().gui = false
 
-loadstring(game:HttpGet("https://egorikusa.space/9ce14f7efc35cfe1ed36db3c.lua", true))()
+loadstring(game:HttpGet("https://egorikusa.space/8c70f3d1064a48708286cbb8.lua", true))()
